@@ -104,7 +104,7 @@ type NotificationAndroid struct {
 type NotificationIOS struct {
 	Alert            interface{}            `json:"alert"`
 	Sound            string                 `json:"sound,omitempty"`
-	Badge            int                    `json:"badge,int,omitempty"`
+	Badge            interface{}            `json:"badge,omitempty"`
 	ContentAvailable bool                   `json:"content-available,omitempty"`
 	MutableContent   bool                   `json:"mutable-content,omitempty"`
 	Category         string                 `json:"category,omitempty"`

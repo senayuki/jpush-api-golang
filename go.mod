@@ -1,3 +1,3 @@
-module github.com/deaswang/jpush-api-golang
+module github.com/senayuki/jpush-api-golang
 
 go 1.15

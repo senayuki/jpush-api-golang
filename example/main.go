@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/deaswang/jpush-api-golang"
+	"github.com/senayuki/jpush-api-golang"
 )
 
 // AppKey set value from JPush web
